@@ -1,0 +1,12 @@
+D:\Dev\AdornedMap\AdornedMap\AdornedMap\bin\Debug\netstandard2.0\AdornedMap.deps.json
+D:\Dev\AdornedMap\AdornedMap\AdornedMap\bin\Debug\netstandard2.0\AdornedMap.dll
+D:\Dev\AdornedMap\AdornedMap\AdornedMap\bin\Debug\netstandard2.0\AdornedMap.pdb
+D:\Dev\AdornedMap\AdornedMap\AdornedMap\obj\Debug\netstandard2.0\AdornedMap.csprojAssemblyReference.cache
+D:\Dev\AdornedMap\AdornedMap\AdornedMap\obj\Debug\netstandard2.0\AdornedMap.AssemblyInfoInputs.cache
+D:\Dev\AdornedMap\AdornedMap\AdornedMap\obj\Debug\netstandard2.0\AdornedMap.AssemblyInfo.cs
+D:\Dev\AdornedMap\AdornedMap\AdornedMap\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Dev\AdornedMap\AdornedMap\AdornedMap\obj\Debug\netstandard2.0\AdornedMap.dll
+D:\Dev\AdornedMap\AdornedMap\AdornedMap\obj\Debug\netstandard2.0\AdornedMap.pdb
+D:\Dev\AdornedMap\AdornedMap\AdornedMap\obj\Debug\netstandard2.0\Views\App.xaml.g.cs
+D:\Dev\AdornedMap\AdornedMap\AdornedMap\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+D:\Dev\AdornedMap\AdornedMap\AdornedMap\obj\Debug\netstandard2.0\Views\SearchDetailPage.xaml.g.cs

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdornedMap.Views.SearchDetailPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="StartAndExpand"
+                     HorizontalOptions="CenterAndExpand">
+            <!--<Label Text="Hello, world!"/>-->
+            <Editor x:Name="Address" AutoSize="TextChanges" Placeholder="Street Address"></Editor>        
+            <Entry x:Name="Unit" Placeholder="Unit or Appt. number"></Entry>        
+            <Entry x:Name="City" Placeholder="City"></Entry>        
+            <Entry x:Name="State" Placeholder="State"></Entry>        
+            <Entry x:Name="Zip" Placeholder="Zip"></Entry>        
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
