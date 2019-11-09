@@ -33,7 +33,7 @@ namespace AdornedMap.Views
         {
             throw new NotImplementedException();
         }
-
+ 
         private async void Cancel_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new MainPage());
