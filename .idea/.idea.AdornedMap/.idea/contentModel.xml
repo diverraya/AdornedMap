@@ -20,9 +20,15 @@
     <e p="D:\Dev\AdornedMap" t="IncludeFlat">
       <e p="AdornedMap\AdornedMap" t="IncludeRecursive">
         <e p="AdornedMap.csproj" t="IncludeRecursive" />
+        <e p="AdornedMap.Data" t="Include">
+          <e p="IAdornedMapDataStore.cs" t="Include" />
+          <e p="IDataStore.cs" t="Include" />
+          <e p="MockAdornedMapDataStore.cs" t="Include" />
+          <e p="MockDataStore.cs" t="Include" />
+        </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="Models" t="Include">
-          <e p="Search.cs" t="Include" />
+          <e p="Address.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -32,15 +38,16 @@
           </e>
         </e>
         <e p="ViewModels" t="Include">
-          <e p="SearchDetailViewModel.cs" t="Include" />
+          <e p="AddressDetailViewModel.cs" t="Include" />
+          <e p="BaseViewModel.cs" t="Include" />
         </e>
         <e p="Views" t="Include">
+          <e p="AddressDetailPage.xaml" t="Include" />
+          <e p="AddressDetailPage.xaml.cs" t="Include" />
           <e p="App.xaml" t="Include" />
           <e p="App.xaml.cs" t="Include" />
           <e p="MainPage.xaml" t="Include" />
           <e p="MainPage.xaml.cs" t="Include" />
-          <e p="SearchDetailPage.xaml" t="Include" />
-          <e p="SearchDetailPage.xaml.cs" t="Include" />
         </e>
       </e>
       <e p="AdornedMap\AdornedMap.Android" t="IncludeRecursive">

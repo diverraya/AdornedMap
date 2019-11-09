@@ -2019,32 +2019,39 @@
     ]
   },
   "packageFolders": {
-    "/Users/rayanthony/.nuget/packages/": {}
+    "C:\\Users\\diver\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rayanthony/Documents/DEV/AdornedMap/AdornedMap/AdornedMap.Android/AdornedMap.Android.csproj",
+      "projectUniqueName": "D:\\Dev\\AdornedMap\\AdornedMap\\AdornedMap.Android\\AdornedMap.Android.csproj",
       "projectName": "AdornedMap.Android",
-      "projectPath": "/Users/rayanthony/Documents/DEV/AdornedMap/AdornedMap/AdornedMap.Android/AdornedMap.Android.csproj",
-      "packagesPath": "/Users/rayanthony/.nuget/packages/",
-      "outputPath": "/Users/rayanthony/Documents/DEV/AdornedMap/AdornedMap/AdornedMap.Android/obj/",
+      "projectPath": "D:\\Dev\\AdornedMap\\AdornedMap\\AdornedMap.Android\\AdornedMap.Android.csproj",
+      "packagesPath": "C:\\Users\\diver\\.nuget\\packages\\",
+      "outputPath": "D:\\Dev\\AdornedMap\\AdornedMap\\AdornedMap.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet"
+      ],
       "configFilePaths": [
-        "/Users/rayanthony/.config/NuGet/NuGet.Config"
+        "C:\\Users\\diver\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid90"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "/Users/rayanthony/Documents/DEV/AdornedMap/AdornedMap/AdornedMap/AdornedMap.csproj": {
-              "projectPath": "/Users/rayanthony/Documents/DEV/AdornedMap/AdornedMap/AdornedMap/AdornedMap.csproj"
+            "D:\\Dev\\AdornedMap\\AdornedMap\\AdornedMap\\AdornedMap.csproj": {
+              "projectPath": "D:\\Dev\\AdornedMap\\AdornedMap\\AdornedMap\\AdornedMap.csproj"
             }
           }
         }
