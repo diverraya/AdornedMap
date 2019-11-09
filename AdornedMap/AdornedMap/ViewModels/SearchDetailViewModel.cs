@@ -3,7 +3,7 @@ using System.Security.Principal;
 
 namespace AdornedMap.ViewModels
 {
-    public class SearchDetailViewModel
+    public class SearchDetailViewModel  
     {
         public Guid Id { get; set; }
         public string Address { get; set; }
