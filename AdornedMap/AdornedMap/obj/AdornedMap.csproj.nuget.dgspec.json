@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dev\\AdornedMap\\AdornedMap\\AdornedMap\\AdornedMap.csproj": {}
+    "/Users/rayanthony/Documents/DEV/AdornedMap/AdornedMap/AdornedMap/AdornedMap.csproj": {}
   },
   "projects": {
-    "D:\\Dev\\AdornedMap\\AdornedMap\\AdornedMap\\AdornedMap.csproj": {
+    "/Users/rayanthony/Documents/DEV/AdornedMap/AdornedMap/AdornedMap/AdornedMap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\AdornedMap\\AdornedMap\\AdornedMap\\AdornedMap.csproj",
+        "projectUniqueName": "/Users/rayanthony/Documents/DEV/AdornedMap/AdornedMap/AdornedMap/AdornedMap.csproj",
         "projectName": "AdornedMap",
-        "projectPath": "D:\\Dev\\AdornedMap\\AdornedMap\\AdornedMap\\AdornedMap.csproj",
-        "packagesPath": "C:\\Users\\diver\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\AdornedMap\\AdornedMap\\AdornedMap\\obj\\",
+        "projectPath": "/Users/rayanthony/Documents/DEV/AdornedMap/AdornedMap/AdornedMap/AdornedMap.csproj",
+        "packagesPath": "/Users/rayanthony/.nuget/packages/",
+        "outputPath": "/Users/rayanthony/Documents/DEV/AdornedMap/AdornedMap/AdornedMap/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\diver\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/rayanthony/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
