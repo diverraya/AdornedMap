@@ -8,16 +8,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AdornedMap.Views.AddressDetailPage.xaml", "Views/AddressDetailPage.xaml", typeof(global::AdornedMap.Views.SearchDetailPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AdornedMap.Views.AddressDetailPage.xaml", "Views/AddressDetailPage.xaml", typeof(global::AdornedMap.Views.AddressDetailPage))]
 
 namespace AdornedMap.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\AddressDetailPage.xaml")]
-    public partial class SearchDetailPage : global::Xamarin.Forms.ContentPage {
+    public partial class AddressDetailPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Entry Address;
+        private global::Xamarin.Forms.Entry StreetAddress;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Entry Unit;
@@ -33,8 +33,8 @@ namespace AdornedMap.Views {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(SearchDetailPage));
-            Address = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "Address");
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(AddressDetailPage));
+            StreetAddress = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "StreetAddress");
             Unit = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "Unit");
             City = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "City");
             State = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "State");

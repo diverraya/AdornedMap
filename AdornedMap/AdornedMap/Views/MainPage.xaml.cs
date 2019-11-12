@@ -14,7 +14,7 @@ namespace AdornedMap.Views
         public async void Search_Clicked(object sender, EventArgs eventArgs)
         {
             //DisplayAlert("Search option", "Search was selected", "Button 2", "Button 1");
-            await Navigation.PushAsync(new SearchDetailPage(new SearchDetailViewModel()));
+            await Navigation.PushAsync(new AddressDetailPage(new AddressDetailViewModel()));
         }
     }
 }
