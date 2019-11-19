@@ -10,7 +10,7 @@ namespace AdornedMap.ViewModels
 
         private void AddPropertyAsync()
         { 
-            Application.Current.MainPage = new AddEditPropertyPage(new AddEditPropertyViewModel());
+            Application.Current.MainPage = new NavigationPage(new AddEditPropertyPage(new AddEditPropertyViewModel()));
         }
     }
 }

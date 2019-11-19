@@ -14,10 +14,16 @@ namespace AdornedMap.ViewModels
         }
         
         public ICommand AddPropertyCommand => new Command(AddPropertyAsync);
+        public ICommand CancelCommand => new Command(CancelAsync);
+
+        private void CancelAsync(object obj)
+        {
+            Application.Current.MainPage = new NavigationPage(new MainPage());
+        }
 
         private async void AddPropertyAsync()
         {
-            Application.Current.MainPage = new AddEditPropertyPage(new AddEditPropertyViewModel());
+            Application.Current.MainPage = new NavigationPage(new AddEditPropertyPage(new AddEditPropertyViewModel()));
         }
 
         public ICommand GetLocationCommand => new Command(GetLocationAsync);
