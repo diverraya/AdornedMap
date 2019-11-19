@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdornedMap.Views.AddEditPropertyPage">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Command="{Binding CancelCommand}" Text="Cancel" ></ToolbarItem>
+        <ToolbarItem Command="{Binding SaveCommand}" Text="Save" ></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <StackLayout Padding="15" Spacing="20">
+            <Entry Text="{Binding Address}" x:Name="Address" Placeholder="Street Address"></Entry>         
+            <Entry Text="{Binding Unit}" x:Name="Unit" Placeholder="Unit or Appt. number"></Entry>         
+            <Entry Text="{Binding City}" x:Name="City" Placeholder="City"></Entry>        
+            <Entry Text="{Binding State}" x:Name="State" Placeholder="State"></Entry>        
+            <Entry Text="{Binding Zip}" x:Name="Zip" Placeholder="Zip"></Entry>
+            <Label FontSize="Medium" Text="Location"></Label>
+            <Grid HorizontalOptions="FillAndExpand">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Text="{Binding Property.Latitude}"
+                       HorizontalOptions="Center" VerticalOptions="Center"></Label>
+                <Label Grid.Column="1" Text="{Binding Property.Longitude}"
+                       HorizontalOptions="Center" VerticalOptions="Center"></Label>
+                <Button Grid.Column="2" Text="GPS" Command="{Binding GetLocationCommand}" ></Button>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

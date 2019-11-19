@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace AdornedMap.AdornedMap.Data
+namespace AdornedMap.Services
 {
     public interface IDataStore<T>
     {

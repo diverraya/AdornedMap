@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdornedMap.Views.PropertyDetailPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Cancel" Command="{Binding CancelCommand}"></ToolbarItem>
+        <ToolbarItem Text="Save" Clicked="Save_Clicked"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout Spacing="20" Padding="15">
+            <Entry Text="{Binding Property.Address}" x:Name="Address" Placeholder="Street Address"></Entry>         
+            <Entry Text="{Binding Property.Unit}" x:Name="Unit" Placeholder="Unit or Appt. number"></Entry>         
+            <Entry Text="{Binding Property.City}" x:Name="City" Placeholder="City"></Entry>        
+            <Entry Text="{Binding Property.State}" x:Name="State" Placeholder="State"></Entry>        
+            <Entry Text="{Binding Property.Zip}" x:Name="Zip" Placeholder="Zip"></Entry>
+            <!--<Entry Text="{Binding Property.Latitude}" x:Name="Latitude"  ></Entry>-->
+            <Button Command="{Binding GetLocationCommand}" Text="GPS Location"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage> 

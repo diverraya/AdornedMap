@@ -21,4 +21,6 @@ D:\Dev\AdornedMap\AdornedMap\AdornedMap\obj\Debug\netstandard2.0\AdornedMap.Asse
 D:\Dev\AdornedMap\AdornedMap\AdornedMap\obj\Debug\netstandard2.0\XamlC.stamp
 D:\Dev\AdornedMap\AdornedMap\AdornedMap\obj\Debug\netstandard2.0\AdornedMap.dll
 D:\Dev\AdornedMap\AdornedMap\AdornedMap\obj\Debug\netstandard2.0\AdornedMap.pdb
-D:\Dev\AdornedMap\AdornedMap\AdornedMap\obj\Debug\netstandard2.0\Views\AddressDetailPage.xaml.g.cs
+D:\Dev\AdornedMap\AdornedMap\AdornedMap\obj\Debug\netstandard2.0\Views\PropertyDetailPage.xaml.g.cs
+D:\Dev\AdornedMap\AdornedMap\AdornedMap\obj\Debug\netstandard2.0\Views\AddEditPropertyPage.xaml.g.cs
+D:\Dev\AdornedMap\AdornedMap\AdornedMap\obj\Debug\netstandard2.0\Views\PropertiesPage.xaml.g.cs

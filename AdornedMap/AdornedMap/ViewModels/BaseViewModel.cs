@@ -2,22 +2,21 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using AdornedMap.AdornedMap.Data;
+using AdornedMap.Services;
 using AdornedMap.Models;
 using Xamarin.Forms;
 
-namespace AdornedMap.ViewModel
+namespace AdornedMap.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
-        public IDataStore<Address> DataStore =>
-            DependencyService.Get<IDataStore<Address>>() ?? new MockDataStore();
+        public IDataStore<Property> DataStore =>
+            DependencyService.Get<IDataStore<Property>>() ?? new MockDataStore();
 
         public IAdornedMapDataStore AdornedMapDataStore =>
             DependencyService.Get<IAdornedMapDataStore>() ?? new MockAdornedMapDataStore();
 
         bool isBusy = false;
-
         public bool IsBusy
         {
             get { return isBusy; }
@@ -25,7 +24,6 @@ namespace AdornedMap.ViewModel
         }
 
         string title = string.Empty;
-
         public string Title
         {
             get { return title; }

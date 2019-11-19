@@ -1,14 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:AdornedMap"
              x:Class="AdornedMap.Views.MainPage">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Command="{Binding AddPropertyCommand}" Text="Add"></ToolbarItem>
+    </ContentPage.ToolbarItems>
     
     <StackLayout HorizontalOptions="CenterAndExpand"
                  VerticalOptions="StartAndExpand">
         <!-- Place new controls here -->
         <Label Text="Welcome to Adorned!" FontSize="Large"/>
-        <Button Button.Text="Search" Clicked="Search_Clicked"/>
     </StackLayout>
 
 </ContentPage>

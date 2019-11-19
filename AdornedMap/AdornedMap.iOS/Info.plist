@@ -35,6 +35,6 @@
     <key>XSAppIconAssets</key>
     <string>Assets.xcassets/AppIcon.appiconset</string>
     <key>NSLocationWhenInUseUsageDescription</key>
-    <string>We use access to your location to find and address.</string>
+    <string>We use access to your location to find an address.</string>
 </dict>
 </plist>

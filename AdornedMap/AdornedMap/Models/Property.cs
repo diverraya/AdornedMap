@@ -2,10 +2,14 @@
 
 namespace AdornedMap.Models
 {
-    public class Address 
+    public class Property 
     {
-        public Guid Id { get; set; }
-        public string StreetAddress { get; set; }
+        public Property()
+        {
+            Id = Guid.NewGuid().ToString();
+        }
+        public string Id { get; set; }
+        public string Address { get; set; }
         public string Unit { get; set; }
         public string City { get; set; }
         public string State { get; set; }
