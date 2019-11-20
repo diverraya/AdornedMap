@@ -10,7 +10,6 @@ namespace AdornedMap.Models
         }
         public string Id { get; set; }
         public string Address { get; set; }
-        public string Unit { get; set; }
         public string City { get; set; }
         public string State { get; set; }
         public string Zip { get; set; }

@@ -16,8 +16,8 @@ namespace AdornedMap.ViewModels
 
           public PropertyDetailViewModel()
           {
-              Property = new Property{Id = "Test Id", Address = "VM Test Address", Unit = "VM Test Unit",
-                  City = "VM Test City", State = "VM Test State", Zip = "VM Test Zip", Latitude = 100.2, Longitude = 22.5};
+              Property = new Property{Id = "Test Id", Address = "VM Test Address", City = "VM Test City", 
+                  State = "VM Test State", Zip = "VM Test Zip", Latitude = 100.2, Longitude = 22.5};
           }
 
           public PropertyDetailViewModel(Property property = null)

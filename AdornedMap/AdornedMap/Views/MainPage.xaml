@@ -8,7 +8,7 @@
     </ContentPage.ToolbarItems>
     
     <StackLayout HorizontalOptions="CenterAndExpand"
-                 VerticalOptions="StartAndExpand">
+                 VerticalOptions="StartAndExpand" BackgroundColor="Aqua">
         <!-- Place new controls here -->
         <Label Text="Welcome to Adorned!" FontSize="Large"/>
     </StackLayout>

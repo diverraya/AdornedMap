@@ -22,7 +22,7 @@ namespace AdornedMap.Views
         {
             Property = new Property
             {
-                Id = "Test id", Address = "Test Address", Unit = "Test Unit", City = "Test City", State = "Test State", 
+                Id = "Test id", Address = "Test Address", City = "Test City", State = "Test State", 
                 Zip = "Test Zip"
             };
         }
